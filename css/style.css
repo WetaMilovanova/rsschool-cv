@@ -3,14 +3,15 @@
 }
 
   body {
-      background-color: antiquewhite;
+    box-sizing: border-box;
+    background-color: antiquewhite;
   }
 
   .container-centered {
     margin: ;
     width: ;
     font-family: "Cabin", sans-serif;
-    font-size: 18px;
+    font-size: 18 px;
     line-height: 1.5;
     background-color:antiquewhite;
   }
@@ -20,18 +21,18 @@
   }
   
   .left-column {
-    width: 30%;
+    width: 30 %;
     color:;
     background-color:azure ;
   }
   
   .right-column {
-    width: 70%;
-    padding: 50px;
+    width: 70 %;
+    padding: 50 px;
   }
   
   header {
-    padding: 50px;
+    padding: 50 px;
     text-align: center;
     background-color:antiquewhite;
   }
