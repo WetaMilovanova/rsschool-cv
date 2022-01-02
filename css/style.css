@@ -2,6 +2,7 @@
   --main-color:#d7e6f1;
   --sub-color:#e2c4bc;
   --footer-color: #afd4ee;
+  --main-text-color: #693232;
 }
 
   body {
@@ -10,54 +11,64 @@
   }
 
   .container-centered {
-    margin: 0 px;
-    width: 40%;
-    font-size: 18 px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: 10px auto;
+    width: 2048px;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
     line-height: 1.5;
     background-color: var(--main-color);
   }
 
   .two-column {
     display: flex;
+    justify-content: space-between;
   }
 
   .left-column {
-    background-color: var(--main-color);
     width: 40%;
-    padding: 50 px;
+    margin: 0rem 1rem;
+    background-color: var(--main-color);
+    color: var(--main-text-color);
+    font-family: 'Exo', sans-serif;
+  }
+
+  .right-column {
+    width: 60%;
+    padding: 2rem;
+    color: var(--main-text-color);
+    background-color: var(--sub-color);
+    font-family: 'Exo', sans-serif;
   }
 
   header {
-    padding: 30 px;
-    margin: 0 px;
+    padding: 0px;
+    margin: 0px;
     text-align: center;
-    color: #693232;
+    color: var(--main-text-color);
     background-color: var(--main-color);
   }
 
   header h1 {
-    background-color: var(--sub-color);
     margin: 0% 20%;
     font-family: 'Indie Flower', cursive;
+    background-color: var(--sub-color);
   }
 
   header h2 {
-    background-color: var(--footer-color);
     margin: 2% 20% 0%;
     font-family: 'Exo', sans-serif;
+    background-color: var(--footer-color);
   }
 
   main {
-    padding: 30 px;
-    margin: 5%;
-    color: #693232;
-    background-color: var(--main-color);
+    margin: 0%;
     line-height: 1.5;
-  }
-
-  main img {
-    padding: 10 px;
-    margin: 0% 5%;
+    color: var(--main-text-color);
+    background-color: var(--main-color);
   }
 
   .delimiter {
@@ -66,27 +77,38 @@
     margin: 2rem 0%;
   }
   
+  .contacts {
+    font-family: 'Exo', sans-serif;
+  }
+
   .contacts li p {
     display: inline;
     vertical-align: middle;
     line-height: 1.5;
   }
 
-  .contacts {
-    font-family: 'Exo', sans-serif;
+  .contacts a:hover {
+    text-decoration: none;
+    color: var(--sub-color);
   }
 
   .contacts a {
     text-decoration: none;
+    color: var(--main-text-color);
   }
   
+  .skills {
+    font-family: 'Exo', sans-serif;
+  }
+
   .skills li p {
     display: inline;
     vertical-align: middle;
     line-height: 1.5;
   }
 
-  .skills {
+  .languages {
+    padding: 0rem 0rem 2rem;
     font-family: 'Exo', sans-serif;
   }
 
@@ -96,59 +118,46 @@
     line-height: 1.5;
   }
 
-  .languages {
-    font-family: 'Exo', sans-serif;
-  }
-
-  .right-column {
-    width: 60%;
-    padding: 50px;
-    color: #693232;
-    background-color: var(--sub-color);
-  }
-
-  .right-column img {
-    padding: 10 px;
-    margin: 0% 5%;
-  }
-
   .under-header {
     font-family: 'Indie Flower', cursive;
     text-align: center;
     letter-spacing: 2px;
     font-size: 2rem;
+    margin: 0rem;
   }
 
-  .education {
-    font-family: 'Exo', sans-serif;
-  }
-
-  .introduction {
-    font-family: 'Exo', sans-serif;
-  }
-  
   .courses li p{
     display: inline;
     vertical-align: middle;
     line-height: 1.5;
   }
 
-  .courses {
-    font-family: 'Exo', sans-serif;
+  pre {
+    display: flex;
+    justify-content: right;
+    position:absolute;
+    padding: 1rem;
+    margin-left: -10px;
+    background-color: var(--footer-color);
   }
 
   footer {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 2rem;
     margin: 0px;
-    background-color:#afd4ee;
-    line-height: 1;
     font-family: 'Exo', sans-serif;
     text-align: center;
+    background-color: var(--footer-color);
+    color: var(--main-text-color);
   }
 
   footer a {
     text-decoration: none;
-    color:#0b5069;
+    color: var(--main-text-color);
+  }
+
+  footer a:hover {
+    text-decoration: none;
+    color: var(--sub-color);
   }
