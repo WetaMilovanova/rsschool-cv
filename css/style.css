@@ -33,6 +33,16 @@
     background-color:#d7e6f1;
   }
 
+  header h1 {
+    background-color: #e2c4bc;
+    margin: 0% 20%;
+  }
+
+  header h2 {
+    background-color: #afd4ee;
+    margin: 2% 20% 0%;
+  }
+
   main {
     padding: 30 px;
     margin: 5%;
@@ -43,7 +53,7 @@
 
   main img {
     padding: 10 px;
-    margin: 5%;
+    margin: 0% 5%;
   }
 
   .delimiter {
@@ -72,8 +82,14 @@
 
   .left-column {
     width: 60%;
-    color: black;
+    padding: 50px;
+    color: #693232;
     background-color: #e2c4bc;
+  }
+
+  .left-column img {
+    padding: 10 px;
+    margin: 0% 5%;
   }
 
   .under-header {
@@ -89,8 +105,10 @@
 
   }
   
-  .courses {
-
+  .courses li p{
+    display: inline;
+    vertical-align: middle;
+    line-height: 1.5;
   }
 
   footer {
