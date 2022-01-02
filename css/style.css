@@ -1,18 +1,19 @@
 :root {
-  blue-green-color: #d7e6f1
+  --main-color:#d7e6f1;
+  --sub-color:#e2c4bc;
 }
 
   body {
     box-sizing: border-box;
-    background-color: #d7e6f1;
+    background-color: var(--main-color);
   }
 
   .container-centered {
     margin: 0 px;
     width: 40%;
     font-size: 18 px;
-    line-height: 1;
-    background-color:#d7e6f1;
+    line-height: 1.5;
+    background-color: var(--main-color);
   }
 
   .two-column {
@@ -20,7 +21,7 @@
   }
 
   .right-column {
-    background-color:#d7e6f1;
+    background-color: var(--main-color);
     width: 40%;
     padding: 50 px;
   }
@@ -30,11 +31,11 @@
     margin: 0 px;
     text-align: center;
     color: #693232;
-    background-color:#d7e6f1;
+    background-color: var(--main-color);
   }
 
   header h1 {
-    background-color: #e2c4bc;
+    background-color: var(--sub-color);
     margin: 0% 20%;
   }
 
@@ -47,7 +48,7 @@
     padding: 30 px;
     margin: 5%;
     color: #693232;
-    background-color:#d7e6f1;
+    background-color: var(--main-color);
     line-height: 1.5;
   }
 
@@ -84,7 +85,7 @@
     width: 60%;
     padding: 50px;
     color: #693232;
-    background-color: #e2c4bc;
+    background-color: var(--sub-color);
   }
 
   .left-column img {
@@ -98,10 +99,6 @@
   }
 
   .introduction {
-
-  }
-  
-  .education {
 
   }
   
