@@ -1,3 +1,9 @@
-.style {
-    
+:root {
+--blue-green color: #54c4ed
 }
+
+header img {
+    margin-bottom: 10px;
+    border: 15px solid var(--blue-green color);
+    border-radius: 40%;
+  }
