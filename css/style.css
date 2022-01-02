@@ -1,38 +1,84 @@
 :root {
-    blue-green-color: #54c4ed;
+  blue-green-color: #d7e6f1
 }
 
   body {
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: #d7e6f1;
   }
 
   .container-centered {
-    margin: ;
-    width: ;
-    font-family: "Cabin", sans-serif;
+    margin: 0 px;
+    width: 40%;
     font-size: 18 px;
-    line-height: 1.5;
-    background-color:antiquewhite;
+    line-height: 1;
+    background-color:#d7e6f1;
   }
 
-  .two-columns {
+  .two-column {
     display: flex;
   }
-  
-  .left-column {
-    width: 30 %;
-    color:;
-    background-color:azure ;
-  }
-  
+
   .right-column {
-    width: 70 %;
+    display: flex;
+    background-color:#d7e6f1;
+    width: 70%;
     padding: 50 px;
   }
-  
+
   header {
-    padding: 50 px;
+    padding: 30 px;
+    margin: 30 px;
     text-align: center;
-    background-color:antiquewhite;
+    background-color:#d7e6f1;
+  }
+
+  main {
+    padding: 30 px;
+    margin: 30 px;
+    background-color:#e2c4bc;
+    line-height: 1;
+  }
+
+  .contacts {
+    padding: 10 px;
+    margin: 10 px;
+  }
+  
+  .skills {
+
+  }
+
+  .languages {
+
+  }
+
+  .left-column {
+    width: 30%;
+    color: black;
+    background-color: #d7e6f1;
+  }
+
+  .under-header {
+    text-align: center;
+  }
+
+  .introduction {
+
+  }
+  
+  .education {
+
+  }
+  
+  .courses {
+
+  }
+
+  footer {
+    display: flex;
+    padding: 30 px;
+    margin: 30 px;
+    background-color:#9bcaec;
+    line-height: 1;
   }
