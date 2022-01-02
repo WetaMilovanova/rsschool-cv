@@ -1,6 +1,7 @@
 :root {
   --main-color:#d7e6f1;
   --sub-color:#e2c4bc;
+  --footer-color: #afd4ee;
 }
 
   body {
@@ -41,7 +42,7 @@
   }
 
   header h2 {
-    background-color: #afd4ee;
+    background-color: var(--footer-color);
     margin: 2% 20% 0%;
     font-family: 'Exo', sans-serif;
   }
@@ -60,9 +61,9 @@
   }
 
   .delimiter {
-    padding: 30 px;
-    margin: 30 px;
-    margin-bottom: 15 px;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0%;
   }
   
   .contacts li p {
@@ -114,6 +115,8 @@
   .under-header {
     font-family: 'Indie Flower', cursive;
     text-align: center;
+    letter-spacing: 2px;
+    font-size: 2rem;
   }
 
   .education {
