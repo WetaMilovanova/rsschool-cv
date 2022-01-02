@@ -20,7 +20,7 @@
     display: flex;
   }
 
-  .right-column {
+  .left-column {
     background-color: var(--main-color);
     width: 40%;
     padding: 50 px;
@@ -37,11 +37,13 @@
   header h1 {
     background-color: var(--sub-color);
     margin: 0% 20%;
+    font-family: 'Indie Flower', cursive;
   }
 
   header h2 {
     background-color: #afd4ee;
     margin: 2% 20% 0%;
+    font-family: 'Exo', sans-serif;
   }
 
   main {
@@ -68,11 +70,23 @@
     vertical-align: middle;
     line-height: 1.5;
   }
+
+  .contacts {
+    font-family: 'Exo', sans-serif;
+  }
+
+  .contacts a {
+    text-decoration: none;
+  }
   
   .skills li p {
     display: inline;
     vertical-align: middle;
     line-height: 1.5;
+  }
+
+  .skills {
+    font-family: 'Exo', sans-serif;
   }
 
   .languages li p{
@@ -81,25 +95,33 @@
     line-height: 1.5;
   }
 
-  .left-column {
+  .languages {
+    font-family: 'Exo', sans-serif;
+  }
+
+  .right-column {
     width: 60%;
     padding: 50px;
     color: #693232;
     background-color: var(--sub-color);
   }
 
-  .left-column img {
+  .right-column img {
     padding: 10 px;
     margin: 0% 5%;
   }
 
   .under-header {
-    font-family: 'algerian-regular', sans-serif;
+    font-family: 'Indie Flower', cursive;
     text-align: center;
   }
 
-  .introduction {
+  .education {
+    font-family: 'Exo', sans-serif;
+  }
 
+  .introduction {
+    font-family: 'Exo', sans-serif;
   }
   
   .courses li p{
@@ -108,12 +130,22 @@
     line-height: 1.5;
   }
 
+  .courses {
+    font-family: 'Exo', sans-serif;
+  }
+
   footer {
     display: flex;
-    flex-direction: column;
-    padding: 30 px;
-    margin: 30 px;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0px;
     background-color:#afd4ee;
     line-height: 1;
+    font-family: 'Exo', sans-serif;
     text-align: center;
+  }
+
+  footer a {
+    text-decoration: none;
+    color:#0b5069;
   }
