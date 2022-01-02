@@ -20,46 +20,64 @@
   }
 
   .right-column {
-    display: flex;
     background-color:#d7e6f1;
-    width: 70%;
+    width: 40%;
     padding: 50 px;
   }
 
   header {
     padding: 30 px;
-    margin: 30 px;
+    margin: 0 px;
     text-align: center;
+    color: #693232;
     background-color:#d7e6f1;
   }
 
   main {
     padding: 30 px;
-    margin: 30 px;
-    background-color:#e2c4bc;
-    line-height: 1;
+    margin: 5%;
+    color: #693232;
+    background-color:#d7e6f1;
+    line-height: 1.5;
   }
 
-  .contacts {
+  main img {
     padding: 10 px;
-    margin: 10 px;
+    margin: 5%;
+  }
+
+  .delimiter {
+    padding: 30 px;
+    margin: 30 px;
+    margin-bottom: 15 px;
   }
   
-  .skills {
-
+  .contacts li p {
+    display: inline;
+    vertical-align: middle;
+    line-height: 1.5;
+  }
+  
+  .skills li p {
+    display: inline;
+    vertical-align: middle;
+    line-height: 1.5;
   }
 
-  .languages {
-
+  .languages li p{
+    display: inline;
+    vertical-align: middle;
+    line-height: 1.5;
   }
 
   .left-column {
-    width: 30%;
+    width: 60%;
     color: black;
-    background-color: #d7e6f1;
+    background-color: #e2c4bc;
   }
 
   .under-header {
+    font-family: 'algerian-regular', sans-serif;
     text-align: center;
   }
 
@@ -77,8 +95,10 @@
 
   footer {
     display: flex;
+    flex-direction: column;
     padding: 30 px;
     margin: 30 px;
-    background-color:#9bcaec;
+    background-color:#afd4ee;
     line-height: 1;
+    text-align: center;
   }
