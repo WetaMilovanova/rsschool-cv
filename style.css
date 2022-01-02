@@ -1,9 +1,37 @@
 :root {
---blue-green color: #54c4ed
+    blue-green-color: #54c4ed;
 }
 
-header img {
-    margin-bottom: 10px;
-    border: 15px solid var(--blue-green color);
-    border-radius: 40%;
+  body {
+      background-color: antiquewhite;
+  }
+
+  .container-centered {
+    margin: ;
+    width: ;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color:antiquewhite;
+  }
+
+  .two-columns {
+    display: flex;
+  }
+  
+  .left-column {
+    width: 30%;
+    color:;
+    background-color:azure ;
+  }
+  
+  .right-column {
+    width: 70%;
+    padding: 50px;
+  }
+  
+  header {
+    padding: 50px;
+    text-align: center;
+    background-color:antiquewhite;
   }
